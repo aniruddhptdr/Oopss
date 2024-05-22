@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+union students{
+int rollno;
+float marks;
+};
+student s1;
+int main(){
+s1.rollno=14761;
+s1.marks=32.5;
+cout<<"ANIRUDDH PATIDAR"<<endl; cout<<"23100BTCSE14751"<<endl;
+cout<<s1.rollno<<endl;
+cout<<s1.marks<<endl;
+cout<<"sizeofunion" <<sizeof(s1)<<endl;
+return 0;
+}
